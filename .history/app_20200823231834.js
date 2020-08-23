@@ -181,7 +181,48 @@ btn.addEventListener('click', e => {
       span.classList.add('error');
     }, 3000);
   }
-});
+})
+
+
+
+// <div class="leaderboard">
+// <div class="card">
+//   <h2>Leaderboard</h2>
+
+  // <div class="user-info">
+  //   <div class="user">
+  //     <div class="user-img">
+  //       <img src="" alt="" />
+  //     </div>
+  //     <div class="user-text">
+  //       <p class="username"></p>
+  //       <div class="marks">
+  //         <span></span>
+  //       </div>
+  //     </div>
+  //   </div>
+  //  </div>
+
+
+
+
+
+
+const people = [
+  {
+    name: 'Adam',
+    age: 10
+  },
+  {
+    name: 'Mutiat',
+    age: 12
+  }
+]
+
+const me = people.sort((a, b) => (a.age < b.age) ? 1 : -1);
+
+console.log(me);
+
 
 
 
