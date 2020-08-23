@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\voting_system_using-javascript-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
